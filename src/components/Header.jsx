@@ -1,8 +1,10 @@
+import dove from "../Image/dove.png";
+
 export default function Header() {
   return (
     <header>
       <h1>Birdwatching</h1>
-      <img src="./src/Image/dove.png" alt="a simple dove logo" />
+      <img src={dove} alt="a simple dove logo" />
       <nav>
         <ul>
           <li>
