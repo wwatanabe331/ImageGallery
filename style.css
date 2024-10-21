@@ -24,6 +24,14 @@ body {
   background-color: rgba(0, 0, 0, 0);
 }
 
+.dark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 640px;
+  height: 480px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 button {
   border: 0;
   background: rgba(150, 150, 150, 0.6);
